@@ -1,0 +1,8 @@
+{
+  "crons": [
+    {
+      "path": "/api/check-vencimentos",
+      "schedule": "0 8 * * *"
+    }
+  ]
+}
