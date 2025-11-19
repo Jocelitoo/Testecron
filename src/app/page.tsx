@@ -10,7 +10,7 @@ export  default async function Home() {
 
   // console.log(data)
 
-  console.log('oi')
+  console.log('oi2')
   
   return (
     <div className="flex min-h-screen items-center justify-center bg-zinc-50 font-sans dark:bg-black">
