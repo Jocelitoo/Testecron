@@ -1,4 +1,6 @@
 import Image from "next/image";
+import dayjs from "dayjs";
+
 
 export  default async function Home() {
   // const res = await fetch(`${process.env.URL}/api/check-vencimentos`, {
@@ -10,7 +12,19 @@ export  default async function Home() {
 
   // console.log(data)
 
-  console.log('oi2')
+  // const today = new Date().getDate() // Dia de hoje
+  // const threeDays = today + 3
+  // const today = dayjs().date() // Data de hoje
+  // const threeDays = dayjs().add(3, 'day').date() // Data daqui 3 dias
+
+  // console.log(today)
+  // console.log(threeDays)
+
+  // boletos.map((boleto) => {
+  //   if(boleto.vencimento === threeDays){
+
+  //   }
+  // })
   
   return (
     <div className="flex min-h-screen items-center justify-center bg-zinc-50 font-sans dark:bg-black">
